@@ -201,4 +201,9 @@ export interface LibundlerConfigObject {
    * @default false
    */
   verbose?: boolean
+  /**
+   * watch file
+   * @default true
+   */
+  watch?: boolean
 }

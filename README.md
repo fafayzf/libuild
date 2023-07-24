@@ -1,5 +1,7 @@
 # libundler
 
+**2023-07-24**: default option `watch` is true
+
 [![GitHub stars](https://img.shields.io/github/stars/surmon-china/libundler.svg?style=for-the-badge)](https://github.com/surmon-china/libundler/stargazers)
 &nbsp;
 [![GitHub issues](https://img.shields.io/github/issues-raw/surmon-china/libundler.svg?style=for-the-badge)](https://github.com/surmon-china/libundler/issues)

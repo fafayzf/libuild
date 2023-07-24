@@ -70,6 +70,7 @@ export const getDefaultConfig = (): Partial<LibundlerConfigObject> => {
     terser: true,
     visualizer: false,
     verbose: false,
+    watch: true
   }
 
   // name
