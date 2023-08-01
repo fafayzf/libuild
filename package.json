@@ -1,12 +1,16 @@
 {
   "name": "@yzfu/libundler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Universal JavaScript library bundler",
-  "author": "Surmon",
+  "author": "fafayzf",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/libundler"
+    "url": "https://github.com/fafayzf/yzfu-libundler"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "JavaScript bundler",
@@ -63,6 +67,7 @@
   "devDependencies": {
     "@types/babel__core": "^7.1.19",
     "@types/eslint": "^7.x",
+    "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "bumpp": "^9.1.1",
