@@ -19,7 +19,7 @@
 #### 1. install
 
 ```bash
-npm install @surmon-china/libundler --save-dev
+npm install @yzfu/libundler --save-dev
 ```
 
 You can also use `yarn` or `pnpm`.
