@@ -67,6 +67,7 @@ export const getDefaultConfig = (): Partial<LibundlerConfigObject> => {
     eslint: isEnabledESLint ? {} : false,
     ts: isEnabledTS ? {} : false,
     typescript: false,
+    dts: false,
     terser: true,
     visualizer: false,
     verbose: false,

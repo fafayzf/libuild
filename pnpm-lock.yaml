@@ -53,6 +53,9 @@ dependencies:
   rollup:
     specifier: ^2.75
     version: 2.75.0
+  rollup-plugin-dts:
+    specifier: ^5.3.1
+    version: 5.3.1(rollup@2.75.0)(typescript@4.7.2)
   rollup-plugin-postcss:
     specifier: ^4.0
     version: 4.0.0(postcss@8.4.11)
@@ -2777,6 +2780,13 @@ packages:
       sourcemap-codec: 1.4.8
     dev: false
 
+  /magic-string@0.30.2:
+    resolution: {integrity: sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.15
+    dev: false
+
   /mdn-data@2.0.14:
     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}
     dev: false
@@ -3623,6 +3633,20 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.3
+    dev: false
+
+  /rollup-plugin-dts@5.3.1(rollup@2.75.0)(typescript@4.7.2):
+    resolution: {integrity: sha512-gusMi+Z4gY/JaEQeXnB0RUdU82h1kF0WYzCWgVmV4p3hWXqelaKuCvcJawfeg+EKn2T1Ie+YWF2OiN1/L8bTVg==}
+    engines: {node: '>=v14.21.3'}
+    peerDependencies:
+      rollup: ^3.0
+      typescript: ^4.1 || ^5.0
+    dependencies:
+      magic-string: 0.30.2
+      rollup: 2.75.0
+      typescript: 4.7.2
+    optionalDependencies:
+      '@babel/code-frame': 7.22.5
     dev: false
 
   /rollup-plugin-postcss@4.0.0(postcss@8.4.11):

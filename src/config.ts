@@ -61,6 +61,17 @@ export const configToRollupConfig = (bundlerConfig: LibundlerConfigObject): Roll
     })
   }
 
+  // dts
+  if (bundlerConfig.dts) {
+    rollupOutput.push({
+      banner: bundlerConfig.banner || void 0,
+      name: bundlerConfig.libName,
+      file: path.resolve(bundlerConfig.outDir!, `${bundlerConfig.outFileName}.d.ts`),
+      exports: bundlerConfig.exports,
+      format: 'es'
+    })
+  }
+
   /** plugins */
 
   // resolve
@@ -81,6 +92,11 @@ export const configToRollupConfig = (bundlerConfig: LibundlerConfigObject): Roll
   // TypeScript
   if (bundlerConfig.typescript) {
     rollupPlugins.push(require('@rollup/plugin-typescript')(bundlerConfig.typescript))
+  }
+
+  // dts
+  if (bundlerConfig.dts) {
+    rollupPlugins.push(require('rollup-plugin-dts')(bundlerConfig.dts))
   }
 
   // JSON

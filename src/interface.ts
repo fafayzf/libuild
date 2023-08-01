@@ -8,6 +8,7 @@ import type { RollupJsonOptions } from '@rollup/plugin-json'
 import type { RollupEslintOptions } from '@rollup/plugin-eslint'
 import type { PostCSSPluginConf } from 'rollup-plugin-postcss'
 import type { TypescriptPluginOptions } from 'rollup-plugin-ts'
+import type { Options as RollupDtsOptions } from 'rollup-plugin-dts'
 import type { Options as RollupTerserOptions } from 'rollup-plugin-terser'
 import type { PluginVisualizerOptions } from 'rollup-plugin-visualizer'
 import type { TargetModuleType, ParserType } from './constant'
@@ -174,6 +175,13 @@ export interface LibundlerConfigObject {
    * @default auto enable by `<package.json>.devDependencies`
    */
   ts?: false | Partial<TypescriptPluginOptions>
+
+  /**
+   * This is a plugin that lets you roll-up your .d.ts definition files.
+   * @see[rollup-plugin-dts](https://github.com/Swatinem/rollup-plugin-dts)
+   * @default false
+   */
+  dts?: false | Partial<RollupDtsOptions>
 
   /**
    * Enable ESLint plugin (before build), `false` to disable.
