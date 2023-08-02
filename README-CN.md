@@ -1,11 +1,11 @@
 # libundler
-[中文文档](./README-CN.md)
+[英文文档](./README.md)
 
-**2023-08-02**: upgrade rollup and some plugins
+**2023-08-02**: 升级 rollup 以及一些插件
 
-**2023-08-01**: add rollup-plugin-dts
+**2023-08-01**: 添加插件 rollup-plugin-dts
 
-**2023-07-24**: default option `watch` is true
+**2023-07-24**: 默认监听`watch`改为`true`
 
 [![GitHub stars](https://img.shields.io/github/stars/fafayzf/yzfu-libundler.svg?style=for-the-badge)](https://github.com/fafayzf/yzfu-libundler/stargazers)
 &nbsp;
@@ -19,18 +19,18 @@
 
 ---
 
-### Usage
+### 使用
 
-#### 1. install
+#### 1. 下载
 
 ```bash
 npm install @yzfu/libundler --save-dev
 ```
 
-You can also use `yarn` or `pnpm`.
+也可以使用 `yarn` 或 `pnpm`.
 
 
-#### 2. add `build` script to `package.json`
+#### 2. 添加脚本 `build` 至 `package.json`
 
 ```json
 "scripts": {
@@ -38,10 +38,8 @@ You can also use `yarn` or `pnpm`.
 }
 ```
 
-You can also use the command `b`.
 
-
-#### 3. run build
+#### 3. 运行
 
 ```bash
 yarn build
@@ -49,19 +47,19 @@ yarn build
 
 ---
 
-### Config
+### 配置
 
-By default, you do not need to specify configuration file, libundler will generate a nearly perfect configuration for the bundle according to your `package.json`.
+默认情况下，你不需要指定配置文件，`libundler`会根据你的`package.json`为`bundle`生成一个近乎完美的配置。
 
-But if you have more specific needs, you can create `libundler.config.js` or `libundler.config.ts` in your project root.
+但如果您有更具体的需求，您可以在项目根目录中创建`libundler.config.js`或`libundler.config.ts`
 
-[**libundler config interface**](/src/interface.ts)
+[**libundler 配置接口**](/src/interface.ts)
 
 - `LibundlerConfigObject`
 - `LibundlerConfigObject[]`
 - `(defaultRollupConfig) => RollupConfig`
 
-**config example projects:**
+**配置示例项目:**
 
 - [javascript nope config](/tests/nope-config)
 - [javascript `cjs` format config](/tests/cjs-config)
@@ -70,7 +68,7 @@ But if you have more specific needs, you can create `libundler.config.js` or `li
 - [react-jsx-scss](/tests/react-jsx-scss)
 - [react-tsx](/tests/react-tsx)
 
-**object config example:**
+**对象配置示例:**
 
 ```ts
 // libundler.config.js
@@ -82,7 +80,7 @@ module.exports = {
 }
 ```
 
-**array config example:**
+**数组配置示例:**
 
 ```ts
 // libundler.config.js
@@ -100,7 +98,7 @@ module.exports = [
 ]
 ```
 
-**function config example:**
+**函数配置示例:**
 
 ```ts
 // libundler.config.js
@@ -115,7 +113,7 @@ module.exports = (rollupConfig) => {
 }
 ```
 
-**`esm` config example:**
+**`esm` 配置示例:**
 
 ```ts
 // libundler.config.js
@@ -125,7 +123,7 @@ export default {
 }
 ```
 
-**`.ts` config example:**
+**`.ts` 配置示例:**
 
 ```ts
 // libundler.config.ts
@@ -154,7 +152,7 @@ libundler
   })
 ```
 
-### Development
+### 开发
 
 ```bash
 yarn dev
@@ -165,10 +163,6 @@ yarn build
 
 yarn release
 ```
-
-### Changelog
-
-Detailed changes for each release are documented in the [release notes](/CHANGELOG.md).
 
 ### License
 
