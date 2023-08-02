@@ -9,7 +9,7 @@ import type { RollupEslintOptions } from '@rollup/plugin-eslint'
 import type { PostCSSPluginConf } from 'rollup-plugin-postcss'
 import type { TypescriptPluginOptions } from 'rollup-plugin-ts'
 import type { Options as RollupDtsOptions } from 'rollup-plugin-dts'
-import type { Options as RollupTerserOptions } from 'rollup-plugin-terser'
+import type { Options as RollupTerserOptions } from '@rollup/plugin-terser'
 import type { PluginVisualizerOptions } from 'rollup-plugin-visualizer'
 import type { TargetModuleType, ParserType } from './constant'
 

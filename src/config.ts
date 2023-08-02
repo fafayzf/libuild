@@ -10,7 +10,7 @@ import eslint from '@rollup/plugin-eslint'
 import babel from '@rollup/plugin-babel'
 import postcss from 'rollup-plugin-postcss'
 import visualizer from 'rollup-plugin-visualizer'
-import { terser } from 'rollup-plugin-terser'
+import terser from '@rollup/plugin-terser'
 import { TargetModuleEnum, ParserEnum } from './constant'
 import { LibundlerConfigObject } from './interface'
 import { logger } from './logger'
@@ -68,7 +68,7 @@ export const configToRollupConfig = (bundlerConfig: LibundlerConfigObject): Roll
       name: bundlerConfig.libName,
       file: path.resolve(bundlerConfig.outDir!, `${bundlerConfig.outFileName}.d.ts`),
       exports: bundlerConfig.exports,
-      format: 'es'
+      format: 'es',
     })
   }
 
