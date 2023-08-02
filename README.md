@@ -1,12 +1,14 @@
 # libundler
 
+**2023-08-02**: upgrade rollup and some plugins
+**2023-08-01**: add rollup-plugin-dts
 **2023-07-24**: default option `watch` is true
 
-[![GitHub stars](https://img.shields.io/github/stars/surmon-china/libundler.svg?style=for-the-badge)](https://github.com/surmon-china/libundler/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/fafayzf/yzfu-libundler.svg?style=for-the-badge)](https://github.com/fafayzf/yzfu-libundler/stargazers)
 &nbsp;
-[![GitHub issues](https://img.shields.io/github/issues-raw/surmon-china/libundler.svg?style=for-the-badge)](https://github.com/surmon-china/libundler/issues)
+[![GitHub issues](https://img.shields.io/github/issues-raw/fafayzf/yzfu-libundler.svg?style=for-the-badge)](https://github.com/fafayzf/yzfu-libundler/issues)
 &nbsp;
-[![npm](https://img.shields.io/npm/v/@surmon-china/libundler?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/@surmon-china/libundler)
+[![npm](https://img.shields.io/npm/v/@yzfu/libundler?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/@yzfu/libundler)
 &nbsp;
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](/LICENSE)
 
