@@ -1,6 +1,6 @@
 {
   "name": "@yzfu/libundler",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Universal JavaScript library bundler",
   "author": "fafayzf",
   "license": "MIT",
