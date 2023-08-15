@@ -1,5 +1,15 @@
 # Rollup compilation tool
 
+[![GitHub stars](https://img.shields.io/github/stars/fafayzf/libuild.svg?style=for-the-badge)](https://github.com/fafayzf/libuild/stargazers)
+&nbsp;
+[![GitHub issues](https://img.shields.io/github/issues-raw/fafayzf/libuild.svg?style=for-the-badge)](https://github.com/fafayzf/libuild/issues)
+&nbsp;
+[![npm](https://img.shields.io/npm/v/@yzfu/libuild?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/@yzfu/libuild)
+&nbsp;
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](/LICENSE)
+
+📦 Universal JavaScript library bundler, powered by [Rollup](https://github.com/rollup).
+
 - custom configuration file
 - Violent monitoring, monitoring can be turned on
 
@@ -7,7 +17,7 @@
 
 ```sh
 
-npm install @zhziu/rollup-build
+npm install @yzfu/libuild
 
 ```
 
