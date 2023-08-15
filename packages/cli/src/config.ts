@@ -57,10 +57,14 @@ export type PartialDefaultConfig = Partial<DefaultConfig>
 
 export function getDefaultConfig() {
   const pkgJSON = getPackageJson()
-  const deps = pkgJSON.dependencies
+  const dep = pkgJSON.dependencies
   const devDeps = pkgJSON.devDependencies
+  const deps = Object.keys(
+    Object.assign({}, dep, devDeps)
+  )
 
-  const isTS = { ...deps, ...devDeps }[TS_NAME]
+  const isTS = deps.indexOf(TS_NAME) > -1
+  
 
   const defaultConfig: PartialDefaultConfig = {
     libraryName: pkgJSON.name,
@@ -75,7 +79,8 @@ export function getDefaultConfig() {
     ts: isTS 
       ? { tsconfig: resolve(TS_JSON_FILE) }
       : false,
-    watch: false
+    watch: false,
+    external: id => deps.some(dep => id === dep || id.startsWith(`${dep}`)),
   }
 
   return defaultConfig
