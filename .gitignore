@@ -1,11 +1,2 @@
-.DS_Store
-.cache
 node_modules
-*.log
-.idea
-package-lock.json
-npm-debug.log
-
-# output
 dist
-lib/*

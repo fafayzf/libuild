@@ -3,6 +3,14 @@
   "version": "1.0.1",
   "description": "rollup build",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fafayzf/yzfu-libundler"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "pnpm -r --filter=./packages/** run build",
     "pub": "pnpm build && bumpp -r && pnpm publish -r"

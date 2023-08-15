@@ -1,8 +1,7 @@
 {
   "cSpell.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": false
   }
 }

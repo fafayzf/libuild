@@ -8,6 +8,10 @@
     "type": "git",
     "url": "https://github.com/fafayzf/yzfu-libundler.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "types": "./dist/types/index.d.d.ts",
   "scripts": {
     "dev": "pnpm build --watch",

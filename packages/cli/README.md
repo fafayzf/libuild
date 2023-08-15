@@ -1,15 +1,5 @@
 # Rollup compilation tool
 
-[![GitHub stars](https://img.shields.io/github/stars/fafayzf/yzfu-libundler.svg?style=for-the-badge)](https://github.com/fafayzf/yzfu-libundler/stargazers)
-&nbsp;
-[![GitHub issues](https://img.shields.io/github/issues-raw/fafayzf/yzfu-libundler.svg?style=for-the-badge)](https://github.com/fafayzf/yzfu-libundler/issues)
-&nbsp;
-[![npm](https://img.shields.io/npm/v/@yzfu/libundler?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/@yzfu/libundler)
-&nbsp;
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](/LICENSE)
-
-📦 Universal JavaScript library bundler, powered by [Rollup](https://github.com/rollup).
-
 - custom configuration file
 - Violent monitoring, monitoring can be turned on
 

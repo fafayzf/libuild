@@ -1,0 +1,21 @@
+{
+  "name": "@yafu/libuild-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm build -w ./src",
+    "build": "rimraf dist && libuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yzfu/libuild": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
