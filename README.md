@@ -1,10 +1,10 @@
 # Rollup compilation tool
 
-[![GitHub stars](https://img.shields.io/github/stars/fafayzf/yzfu-libundler.svg?style=for-the-badge)](https://github.com/fafayzf/yzfu-libundler/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/fafayzf/libuild.svg?style=for-the-badge)](https://github.com/fafayzf/libuild/stargazers)
 &nbsp;
-[![GitHub issues](https://img.shields.io/github/issues-raw/fafayzf/yzfu-libundler.svg?style=for-the-badge)](https://github.com/fafayzf/yzfu-libundler/issues)
+[![GitHub issues](https://img.shields.io/github/issues-raw/fafayzf/libuild.svg?style=for-the-badge)](https://github.com/fafayzf/libuild/issues)
 &nbsp;
-[![npm](https://img.shields.io/npm/v/@yzfu/libundler?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/@yzfu/libundler)
+[![npm](https://img.shields.io/npm/v/@yzfu/libuild?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/@yzfu/libuild)
 &nbsp;
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](/LICENSE)
 
