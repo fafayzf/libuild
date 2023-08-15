@@ -17,7 +17,7 @@
 
 ```sh
 
-npm install @zhziu/rollup-build
+npm install @yzfu/libuild
 
 ```
 
