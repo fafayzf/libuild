@@ -44,7 +44,8 @@ function getRollupConfig(normalConfig: PartialDefaultConfig) {
         exports: normalConfig.exports,
         format: 'esm',
         sourcemap: normalConfig.sourcemap,
-        sourcemapExcludeSources: !!normalConfig.sourcemap
+        sourcemapExcludeSources: !!normalConfig.sourcemap,
+        banner: normalConfig.banner
       },
       plugins: commonPlugins(normalConfig)
     }))
@@ -60,7 +61,8 @@ function getRollupConfig(normalConfig: PartialDefaultConfig) {
         exports: normalConfig.exports,
         format: 'esm',
         sourcemap: normalConfig.sourcemap,
-        sourcemapExcludeSources: !!normalConfig.sourcemap
+        sourcemapExcludeSources: !!normalConfig.sourcemap,
+        banner: normalConfig.banner
       },
       plugins: commonPlugins(normalConfig)
     }))
@@ -77,7 +79,8 @@ function getRollupConfig(normalConfig: PartialDefaultConfig) {
         exports: normalConfig.exports,
         format: 'umd',
         sourcemap: normalConfig.sourcemap,
-        sourcemapExcludeSources: !!normalConfig.sourcemap
+        sourcemapExcludeSources: !!normalConfig.sourcemap,
+        banner: normalConfig.banner
       },
       plugins: commonPlugins(normalConfig)
     }))

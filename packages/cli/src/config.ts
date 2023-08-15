@@ -49,7 +49,8 @@ export interface DefaultConfig {
   /**
    * Monitor mode, not enabled by default, monitor string path
    */
-  watch: false | string
+  watch: false | string,
+  banner: string
 }
 
 export type PartialDefaultConfig = Partial<DefaultConfig>
