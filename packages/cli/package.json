@@ -6,7 +6,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fafayzf/yzfu-libundler.git"
+    "url": "https://github.com/fafayzf/libuild.git"
   },
   "publishConfig": {
     "access": "public",

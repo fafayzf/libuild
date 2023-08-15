@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/fafayzf/yzfu-libundler"
+    "url": "https://github.com/fafayzf/libuild"
   },
   "publishConfig": {
     "access": "public",
