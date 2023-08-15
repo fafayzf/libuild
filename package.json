@@ -1,86 +1,18 @@
 {
-  "name": "@yzfu/libundler",
-  "version": "0.0.6",
-  "description": "Universal JavaScript library bundler",
+  "name": "yzfu-libundler",
+  "version": "1.0.1",
+  "description": "rollup build",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r --filter=./packages/** run build",
+    "pub": "pnpm build && bumpp -r && pnpm publish -r"
+  },
+  "keywords": [],
   "author": "fafayzf",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fafayzf/yzfu-libundler"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
-  "keywords": [
-    "JavaScript bundler",
-    "TypeScript bundler",
-    "zero config bundler",
-    "react component bundler",
-    "rollup",
-    "webpack"
-  ],
-  "sideEffects": false,
-  "main": "lib/index.js",
-  "types": "lib/index.d.js",
-  "bin": {
-    "b": "bin/libundler.js",
-    "libundler": "bin/libundler.js"
-  },
-  "files": [
-    "bin",
-    "lib",
-    "src"
-  ],
-  "scripts": {
-    "dev": "tsc -w",
-    "build": "tsc",
-    "test": "node ./tests",
-    "lint": "eslint --ext .ts src/**",
-    "format": "prettier --write --parser typescript \"src/**/*.ts\"",
-    "rebirth": "npm run lint && npm run build && npm run test",
-    "release": "sh ./scripts/release.sh"
-  },
-  "dependencies": {
-    "@babel/core": "^7.18",
-    "@rollup/plugin-alias": "^5.0.0",
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-buble": "^1.0.2",
-    "@rollup/plugin-commonjs": "^25.0.3",
-    "@rollup/plugin-eslint": "^9.0.4",
-    "@rollup/plugin-json": "^6.0.0",
-    "@rollup/plugin-node-resolve": "^15.1.0",
-    "@rollup/plugin-replace": "^5.0.2",
-    "@rollup/plugin-terser": "^0.4.3",
-    "@rollup/plugin-typescript": "^11.1.2",
-    "chalk": "^4.1.2",
-    "commander": "^9.0",
-    "consola": "^2.15",
-    "esbuild": "^0.14.27",
-    "postcss": "^8.4.11",
-    "rollup": "^3.27.0",
-    "rollup-plugin-dts": "^5.3.1",
-    "rollup-plugin-postcss": "^4.0",
-    "rollup-plugin-ts": "^3.0.0",
-    "rollup-plugin-visualizer": "^5.9.2",
-    "tslib": "^2.4.0"
-  },
   "devDependencies": {
-    "@types/babel__core": "^7.1.19",
-    "@types/eslint": "^7.x",
-    "@types/node": "^20.4.5",
-    "@typescript-eslint/eslint-plugin": "^5.15.0",
-    "@typescript-eslint/parser": "^5.15.0",
-    "bumpp": "^9.1.1",
-    "eslint": "^7.28.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.6.0",
-    "sass": "^1.52.3",
-    "shelljs": "^0.8.5",
-    "typescript": "^4.7.0"
-  },
-  "engines": {
-    "node": ">=14"
+    "@types/babel__core": "^7.20.1",
+    "@types/node": "^20.4.6",
+    "bumpp": "^9.1.1"
   }
 }
