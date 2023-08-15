@@ -59,7 +59,7 @@ function getRollupConfig(normalConfig: PartialDefaultConfig) {
         entryFileNames: `node-cjs/${filename}.cjs`,
         chunkFileNames: 'node-cjs/chunks/dep-[hash].js',
         exports: normalConfig.exports,
-        format: 'esm',
+        format: 'cjs',
         sourcemap: normalConfig.sourcemap,
         sourcemapExcludeSources: !!normalConfig.sourcemap,
         banner: normalConfig.banner
