@@ -1,6 +1,6 @@
 {
   "name": "@yzfu/libuild",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "CLI to rollup build library packages",
   "main": "./dist/node/index.js",
   "type": "module",
