@@ -5,6 +5,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/fafayzf/libuild.svg?style=for-the-badge)](https://github.com/fafayzf/libuild/issues)
 &nbsp;
 [![npm](https://img.shields.io/npm/v/@yzfu/libuild?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/@yzfu/libuild)
+[![Download](https://img.shields.io/npm/dt/%40yzfu%2Flibuild?style=for-the-badge)](https://www.npmjs.com/package/@yzfu/libuild?activeTab=readme)
 &nbsp;
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](/LICENSE)
 
